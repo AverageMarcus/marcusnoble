@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := default
 
-IMAGE ?= rg.fr-par.scw.cloud/averagemarcus-private/marcusnoble:latest
+IMAGE ?= rg.fr-par.scw.cloud/averagemarcus/marcusnoble:latest
 
 .PHONY: test # Run all tests, linting and format checks
 test: lint check-format run-tests
@@ -23,11 +23,11 @@ run-tests:
 
 .PHONY: fetch-deps # Fetch all project dependencies
 fetch-deps:
-	@echo "⚠️ 'fetch-deps' unimplemented"
+	@go mod tidy
 
 .PHONY: build # Build the project
 build: lint check-format fetch-deps
-	@echo "⚠️ 'build' unimplemented"
+	@go build .
 
 .PHONY: docker-build # Build the docker image
 docker-build:
@@ -38,8 +38,8 @@ docker-publish:
 	@docker push $(IMAGE)
 
 .PHONY: run # Run the application
-run: docker-build
-	@docker run --rm -it -p 8080:80 -v $$(pwd)/src:/usr/share/nginx/html $(IMAGE)
+run:
+	@go run .
 
 .PHONY: ci # Perform CI specific tasks to perform on a pull request
 ci:
@@ -47,7 +47,7 @@ ci:
 
 .PHONY: release # Release the latest version of the application
 release:
-	@kubectl --context scaleway --namespace marcusnoble set image deployment marcusnoble web=rg.fr-par.scw.cloud/averagemarcus-private/marcusnoble:$(SHA)
+	@kubectl --context scaleway --namespace marcusnoble set image deployment marcusnoble web=rg.fr-par.scw.cloud/averagemarcus/marcusnoble:$(SHA)
 
 .PHONY: help # Show this list of commands
 help:
