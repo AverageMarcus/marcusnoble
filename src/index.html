@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>Marcus Noble</title>
+
+  <style>
+    @font-face {
+        font-family: 'Orkney';
+        src: url('/fonts/OrkneyRegular.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Orkney';
+        src: url('/fonts/OrkneyBold.ttf') format('truetype');
+        font-weight: bold;
+    }
+
+    @font-face {
+        font-family: 'Orkney';
+        src: url('/fonts/OrkneyLight.ttf') format('truetype');
+        font-weight: lighter;
+    }
+  </style>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+    }
+
+    body {
+      background: #11191f;
+      color: #ededed;
+      display: grid;
+      grid-template: 100vh / 40% 60%;
+
+      font-family: 'Orkney', system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
+          "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+          "Segoe UI Symbol", "Noto Color Emoji";
+      font-size: 1.5em;
+    }
+
+    a {
+      color: #fd7e0b;
+    }
+
+    header {
+      height: 100vh;
+      background-image: url('headshot-transparent.png');
+      background-repeat: no-repeat;
+      background-position: bottom right;
+      background-size: cover;
+    }
+
+    @media only screen and (min-width: 3700px) {
+      header {
+        background-position: top right;
+        background-size: contain;
+      }
+    }
+
+    main {
+      padding: 8em;
+
+      overflow-y: auto;
+    }
+
+    main h1 {
+      font-size: 2.5em;
+    }
+
+    main p {
+      line-height: 1.4em;
+    }
+
+    /* Social links */
+    .social-links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .social-links li {
+      margin-right: .8em;
+      margin-bottom: .6em;
+    }
+
+    .social-links li a {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      text-decoration: none;
+    }
+
+    .social-links svg {
+      fill: #fff;
+      margin: 0 6px;
+    }
+
+    /* Projects */
+
+    .projects {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      font-size: .8em;
+    }
+
+    .projects li {
+      width: 400px;
+      max-width: 100%;
+      border: 2px solid;
+      border-radius: 6px;
+      padding: 10px;
+      margin: 6px;
+      cursor: pointer;
+    }
+
+    .projects li a {
+      text-decoration: none;
+      color: unset;
+    }
+
+    .projects blockquote {
+      background: none;
+      margin: 4px 0;
+      padding-left: 4px;
+      border-left: 4px solid;
+      font-size: .8em;
+    }
+
+    .repo-language-color {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
+
+    /* Events */
+    .events {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      font-size: .8em;
+    }
+
+    .events li {
+      margin-bottom: 1em;
+    }
+
+    .events time {
+      font-size: .9em;
+    }
+
+    .events li .details {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.4em;
+      padding-left: 10px;
+      margin-left: 2px;
+      border-left: 4px solid;
+      margin-top: .6em;
+    }
+
+    .events li .details > div {
+      margin-bottom: 6px;
+    }
+
+    .events .tag {
+      font-size: 0.7em;
+      background: #ededed;
+      color: #11191f;
+      padding: 4px 7px;
+      border-radius: 10em;
+      display: inline-block;
+      font-weight: lighter;
+      line-height: 1.2em;
+    }
+
+
+    @media only screen and (max-width: 1700px) {
+      body {
+        grid-template: 20vh 80vh / 100%;
+      }
+
+      header {
+        height: 100%;
+        background-position: bottom center;
+        background-size: contain
+      }
+      main {
+        padding: .5em 4em;
+
+        overflow-y: unset;
+      }
+    }
+
+
+    @media only screen and (max-width: 1050px) {
+      .projects li {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header></header>
+  <main>
+    <section id="intro">
+      <h1>Hi 👋, I'm Marcus</h1>
+
+      <p>
+        {{ .intro | html }}
+      </p>
+    </section>
+
+    <section id="links">
+      <h2>Find me around the web 🌐</h2>
+
+      <ul class="social-links">
+        {{ range .social }}
+        <li>
+          <a href="{{ .url }}" rel="me" title="{{ .title }}">
+            {{ .content | html }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>My Open Source Projects 💻</h2>
+
+      <p>
+        All my Open Source projects can be find on my <a href="https://github.com/AverageMarcus">GitHub</a> profile <small>(as well as my personal <a href="https://git.cluster.fun">Gitea</a> instance, <a href="https://gitlab.com/AverageMarcus">GitLab</a>, <a href="https://codeberg.org/AverageMarcus">Codeberg</a> and <a href="https://bitbucket.org/AverageMarcus/workspace/projects/PROJ">BitBucket</a>)</small>. Below are a selection of highlights.
+      </p>
+
+      <ul class="projects">
+        {{ range .projects }}
+        <li>
+          <a href="{{ .url }}">
+            <strong>{{ .name }}</strong>
+            <blockquote>{{ .description }}</blockquote>
+            <div>
+              {{ range .languages }}
+              <span class="repo-language-color" style="background-color: {{ .color }}"></span> {{ .name }}
+              {{ end }}
+            </div>
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+
+    <section id="events">
+      <h2>Upcoming Events 🗓</h2>
+
+      <ul class="events">
+        {{ range .events }}
+        <li>
+          <time datetime="{{ .date }}">{{ .humanDate }}</time>
+          <div class="details">
+            <strong><a href="{{ .url }}">{{ .eventName }}</a></strong>
+            {{ range .details }}
+            <div>
+              <span>{{ .name }}</span>
+              <span class="tag">{{ .type }}</span>
+            </div>
+            {{ end }}
+          </div>
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
