@@ -54,6 +54,17 @@
       color: #fd7e0b;
     }
 
+    .tag {
+      font-size: 0.7em;
+      background: #ededed;
+      color: #11191f;
+      padding: 4px 7px;
+      border-radius: 10em;
+      display: inline-block;
+      font-weight: lighter;
+      line-height: 1.2em;
+    }
+
     header {
       height: 100vh;
       background-image: url('headshot-transparent.png');
@@ -77,10 +88,22 @@
 
     main h1 {
       font-size: 2.5em;
+      margin-bottom: 0;
+    }
+
+    main h1 small {
+      font-weight: lighter;
+      font-size: 0.3em;
+      color: #bcb8b8;
+      display: inline-block;
     }
 
     main p {
       line-height: 1.4em;
+    }
+
+    main p span {
+      display: inline-block;
     }
 
     /* Social links */
@@ -185,18 +208,6 @@
       margin-bottom: 6px;
     }
 
-    .events .tag {
-      font-size: 0.7em;
-      background: #ededed;
-      color: #11191f;
-      padding: 4px 7px;
-      border-radius: 10em;
-      display: inline-block;
-      font-weight: lighter;
-      line-height: 1.2em;
-    }
-
-
     @media only screen and (max-width: 1700px) {
       body {
         grid-template: 20vh 80vh / 100%;
@@ -204,7 +215,8 @@
 
       header {
         height: 100%;
-        background-position: bottom center;
+        background-position-y: bottom;
+        background-position-x: 0;
         background-size: contain
       }
       main {
@@ -212,8 +224,15 @@
 
         overflow-y: unset;
       }
-    }
 
+      #intro h1 {
+        margin: 0;
+      }
+
+      #intro p {
+        font-size: 0.9em;
+      }
+    }
 
     @media only screen and (max-width: 1050px) {
       .projects li {
@@ -226,7 +245,9 @@
   <header></header>
   <main>
     <section id="intro">
-      <h1>Hi 👋, I'm Marcus</h1>
+      <h1>Hi 👋, I'm Marcus <small>(/ˈmɑːkəs/)</small></h1>
+
+      <div class="tag">Pronouns: He/Him/His</div>
 
       <p>
         {{ .intro | html }}
@@ -234,7 +255,7 @@
     </section>
 
     <section id="links">
-      <h2>Find me around the web 🌐</h2>
+      <h2>🌐 Find me around the web</h2>
 
       <ul class="social-links">
         {{ range .social }}
@@ -248,7 +269,7 @@
     </section>
 
     <section id="projects">
-      <h2>My Open Source Projects 💻</h2>
+      <h2>💻 My Open Source Projects</h2>
 
       <p>
         All my Open Source projects can be find on my <a href="https://github.com/AverageMarcus">GitHub</a> profile <small>(as well as my personal <a href="https://git.cluster.fun">Gitea</a> instance, <a href="https://gitlab.com/AverageMarcus">GitLab</a>, <a href="https://codeberg.org/AverageMarcus">Codeberg</a> and <a href="https://bitbucket.org/AverageMarcus/workspace/projects/PROJ">BitBucket</a>)</small>. Below are a selection of highlights.
@@ -272,7 +293,7 @@
     </section>
 
     <section id="events">
-      <h2>Upcoming Events 🗓</h2>
+      <h2>🗓 Upcoming Events</h2>
 
       <ul class="events">
         {{ range .events }}
