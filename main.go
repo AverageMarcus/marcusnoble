@@ -35,6 +35,13 @@ func main() {
 		panic(err)
 	}
 
+	for _, l := range data["social"].([]interface{}) {
+		link := l.(map[interface{}]interface{})
+		if link["slug"] != "" {
+			http.Handle(link["slug"].(string), http.RedirectHandler(link["url"].(string), http.StatusTemporaryRedirect))
+		}
+	}
+
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		page := "src" + r.URL.Path
 		if strings.HasSuffix(page, "/") {
