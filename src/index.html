@@ -261,7 +261,8 @@
         {{ range .social }}
         <li>
           <a href="{{ .url }}" rel="me" title="{{ .title }}">
-            {{ .content | html }}
+            {{ .icon | html }}
+            {{ .name }}
           </a>
         </li>
         {{ end }}

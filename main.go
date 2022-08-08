@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"path"
 	"strings"
 
 	"gopkg.in/yaml.v2"
@@ -42,28 +43,37 @@ func main() {
 		}
 	}
 
+	funcMap := template.FuncMap(map[string]interface{}{
+		"join": func(objs []interface{}, key, joiner string) template.HTML {
+			vals := []string{}
+			for _, obj := range objs {
+				val := obj.(map[interface{}]interface{})[key]
+				vals = append(vals, val.(string))
+			}
+			return template.HTML(strings.Join(vals, joiner))
+		},
+		"html": func(str string) template.HTML {
+			return template.HTML(str)
+		},
+	})
+
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		page := "src" + r.URL.Path
 		if strings.HasSuffix(page, "/") {
 			page = page + "index.html"
 		}
 
-		if strings.HasSuffix(page, ".html") {
-			tpl, err := template.ParseFS(res, page)
+		if strings.HasSuffix(page, ".html") || strings.HasSuffix(page, ".md") {
+			tpl, err := template.New(path.Base(page)).Funcs(funcMap).ParseFS(res, page)
 			if err != nil {
 				log.Printf("page %s (%s) not found...", r.RequestURI, page)
+				log.Println(err)
 				w.WriteHeader(http.StatusInternalServerError)
 				return
 			}
 			w.WriteHeader(http.StatusOK)
-
-			tpl.Funcs(template.FuncMap(map[string]interface{}{
-				"html": func(str string) template.HTML {
-					return template.HTML(str)
-				},
-			}))
-
 			if err := tpl.Execute(w, data); err != nil {
+				log.Println(err)
 				return
 			}
 		} else {
