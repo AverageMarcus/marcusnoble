@@ -313,8 +313,8 @@
             <strong><a href="{{ .url }}">{{ .eventName }}</a></strong>
             {{ range .details }}
             <div>
-              <span>{{ .name }}</span>
-              <span class="tag">{{ .type }}</span>
+              <span>{{ .name | html }}</span>
+              {{ if .type }}<span class="tag">{{ .type }}</span>{{ end }}
             </div>
             {{ end }}
           </div>
