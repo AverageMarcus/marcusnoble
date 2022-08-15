@@ -23,10 +23,20 @@ Below are a selection of highlights.
 ## 🗓 Upcoming Events
 
 {{ range .events }}
-{{ .humanDate }} - [**{{.eventName}}**]({{ .url }})
+<div>{{ .humanDate }}</div>
+<div>
+
+[**{{.eventName}}**]({{ .url }})
+
+</div>
 {{ range .details }}
-`{{ .name | html }}{{ if .type }} - {{ .type }}{{ end}}`
+<strong>
+
+{{ .name | html }}{{ if .type }} - {{ .type }}{{ end}}
+
+</strong>
 {{ end }}
+✨✨✨
 {{- end }}
 
 </div>
