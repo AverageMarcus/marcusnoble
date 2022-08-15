@@ -25,7 +25,7 @@ Below are a selection of highlights.
 {{ range .events }}
 {{ .humanDate }} - [**{{.eventName}}**]({{ .url }})
 {{ range .details }}
-`{{ .name | html }}{{ if .type }} - {{ .type }}{{/end}}`
+`{{ .name | html }}{{ if .type }} - {{ .type }}{{ end}}`
 {{ end }}
 {{- end }}
 
