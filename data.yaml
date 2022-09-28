@@ -113,13 +113,6 @@ projects:
       - color: "#00ADD8"
         name: Go
 events:
-  - date: "2022-09-27"
-    humanDate: "September 27, 2022"
-    url: https://www.meetup.com/devops-notts/events/288022574/
-    eventName: DevOpsNotts
-    details:
-    - name: The Wonders and Woes of Webhooks
-      type: Meetup Talk
   - date: "2022-09-29"
     humanDate: "September 29 - 30, 2022"
     url: https://devopsdays.org/events/2022-london/welcome/
