@@ -113,15 +113,6 @@ projects:
       - color: "#00ADD8"
         name: Go
 events:
-  - date: "2022-09-29"
-    humanDate: "September 29 - 30, 2022"
-    url: https://devopsdays.org/events/2022-london/welcome/
-    eventName: DevOpsDays London 2022
-    details:
-    - name: What DragonBall can teach us about being engineers
-      type: Ignite Talk
-    - name: |
-        🎟 <strike><a href="https://ti.to/devopsdays-london/2022/discount/DODL22_SPEAKER_20">20% discount on tickets</a></strike> SOLD OUT
   - date: "2022-10-03"
     humanDate: "October 3 - 4, 2022"
     url: https://kubehuddle.com/2022/
@@ -133,6 +124,13 @@ events:
       type: Lightning Talk
     - name: |
         🎟 <strike><a href="https://www.tickettailor.com/checkout/view-event/id/1400278/chk/9f6c/?modal_widget=true&widget=true&promo=FRIENDS">20% discount on tickets</a></strike> SOLD OUT
+  - date: "2022-11-22"
+    humanDate: "November 22 - 23, 2022"
+    url: https://kcduk.io/
+    eventName: Kubernetes Community Days UK
+    details:
+    - name: Managing Kubernetes without losing your cool
+      type: Presentation
   - date: "2022-11-28"
     humanDate: "November 28 - December 2, 2022"
     url: https://reinvent.awsevents.com/
