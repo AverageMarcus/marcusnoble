@@ -119,3 +119,9 @@ events:
     eventName: Civo Navigate
     details:
     - name: Attendee
+  - date: "2023-04-18"
+    humanDate: "April 18th - 21st, 2023"
+    url: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/
+    eventName: KubeCon & CloudNativeCon EU
+    details:
+    - name: Attendee and representing <a href="https://giantswarm.io/">Giant Swarm</a> as a sponsor
