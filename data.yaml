@@ -113,12 +113,6 @@ projects:
       - color: "#00ADD8"
         name: Go
 events:
-  - date: "2022-11-28"
-    humanDate: "November 28 - December 2, 2022"
-    url: https://reinvent.awsevents.com/
-    eventName: AWS re:Invent 2022
-    details:
-    - name: Attendee and representing <a href="https://giantswarm.io/">Giant Swarm</a> as a sponsor
   - date: "2023-02-07"
     humanDate: "February 7th - February 8th, 2023"
     url: https://www.civo.com/navigate
