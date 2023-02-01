@@ -113,12 +113,6 @@ projects:
       - color: "#00ADD8"
         name: Go
 events:
-  - date: "2023-02-07"
-    humanDate: "February 7th - February 8th, 2023"
-    url: https://www.civo.com/navigate
-    eventName: Civo Navigate
-    details:
-    - name: Attendee
   - date: "2023-04-18"
     humanDate: "April 18th - 21st, 2023"
     url: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/
