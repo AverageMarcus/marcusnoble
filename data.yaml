@@ -121,6 +121,13 @@ events:
     - name: Managing Kubernetes without losing your cool
       type: Talk
     - name: <a href="https://crowdfunding.lfx.linuxfoundation.org/initiative/08e7b56c-7e38-45d4-9f8b-276c03376d5c">Dontate Here</a>
+  - date: "2023-03-28"
+    humanDate: "March 28th, 2023"
+    url: https://www.meetup.com/devopsoxford/events/291595200/
+    eventName: DevOps Oxford
+    details:
+    - name: Managing Kubernetes without losing your cool
+      type: Talk
   - date: "2023-04-18"
     humanDate: "April 18th - 21st, 2023"
     url: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/
