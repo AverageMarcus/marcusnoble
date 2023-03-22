@@ -113,14 +113,6 @@ projects:
       - color: "#00ADD8"
         name: Go
 events:
-  - date: "2023-03-16"
-    humanDate: "March 16th, 2023"
-    url: https://community.cncf.io/events/details/cncf-kcd-ukraine-presents-kcd-ukraine-2023-fundraiser/
-    eventName: Kubernetes Community Days Ukraine - Fundraiser
-    details:
-    - name: Managing Kubernetes without losing your cool
-      type: Talk
-    - name: <a href="https://crowdfunding.lfx.linuxfoundation.org/initiative/08e7b56c-7e38-45d4-9f8b-276c03376d5c">Dontate Here</a>
   - date: "2023-03-28"
     humanDate: "March 28th, 2023"
     url: https://www.meetup.com/devopsoxford/events/291595200/
