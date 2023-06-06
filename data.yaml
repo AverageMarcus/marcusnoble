@@ -127,3 +127,9 @@ events:
     details:
     - name: Managing Kubernetes without losing your cool
       type: Talk
+  - date: "2023-11-06"
+    humanDate: "November 6th - 9th, 2023"
+    url: https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/
+    eventName: KubeCon + CloudNativeCon NA
+    details:
+    - name: Attendee and representing <a href="https://giantswarm.io/">Giant Swarm</a> as a sponsor
