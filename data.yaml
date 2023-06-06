@@ -113,9 +113,17 @@ projects:
       - color: "#00ADD8"
         name: Go
 events:
-  - date: "2023-04-18"
-    humanDate: "April 18th - 21st, 2023"
-    url: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/
-    eventName: KubeCon & CloudNativeCon EU
+  - date: "2023-06-15"
+    humanDate: "June 15th - 16th, 2023"
+    url: https://devopsdays.org/events/2023-birmingham-uk/
+    eventName: DevOpsDays Birmingham
     details:
-    - name: Attendee and representing <a href="https://giantswarm.io/">Giant Swarm</a> as a sponsor
+    - name: What Pokémon can teach us about being engineers
+      type: Ignite Talk
+  - date: "2023-10-07"
+    humanDate: "October 7th, 2023"
+    url: https://dddeastmidlands.com/
+    eventName: DDD East Midlands
+    details:
+    - name: Managing Kubernetes without losing your cool
+      type: Talk
