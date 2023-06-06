@@ -127,6 +127,12 @@ events:
     details:
     - name: Managing Kubernetes without losing your cool
       type: Talk
+  - date: "2023-10-17"
+    humanDate: "October 17th - 18th, 2023"
+    url: https://community.cncf.io/events/details/cncf-kcd-uk-presents-kubernetes-community-days-uk-2023/https://community.cncf.io/events/details/cncf-kcd-uk-presents-kubernetes-community-days-uk-2023/
+    eventName: Kubernetes Community Days UK
+    details:
+    - name: Attendee
   - date: "2023-11-06"
     humanDate: "November 6th - 9th, 2023"
     url: https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/
