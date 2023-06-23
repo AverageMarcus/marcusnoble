@@ -82,9 +82,9 @@ projects:
     languages:
       - color: "#00ADD8"
         name: Go
-  - url: https://github.com/AverageMarcus/tweetsvg
-    name: tweetsvg
-    description: Generate an SVG for a given Tweet ID
+  - url: https://github.com/AverageMarcus/cel-tester
+    name: cel-tester
+    description: Browser-based CEL expression tester
     languages:
       - color: "#e34c26"
         name: HTML
@@ -110,6 +110,12 @@ projects:
     languages:
       - color: "#e34c26"
         name: HTML
+      - color: "#00ADD8"
+        name: Go
+  - url: https://github.com/AverageMarcus/link
+    name: link
+    description: Tiny link redirector. Best used with a short domain.
+    languages:
       - color: "#00ADD8"
         name: Go
 events:
