@@ -113,13 +113,6 @@ projects:
       - color: "#00ADD8"
         name: Go
 events:
-  - date: "2023-06-15"
-    humanDate: "June 15th - 16th, 2023"
-    url: https://devopsdays.org/events/2023-birmingham-uk/
-    eventName: DevOpsDays Birmingham
-    details:
-    - name: What Pokémon can teach us about being engineers
-      type: Ignite Talk
   - date: "2023-10-07"
     humanDate: "October 7th, 2023"
     url: https://dddeastmidlands.com/
@@ -131,6 +124,12 @@ events:
     humanDate: "October 17th - 18th, 2023"
     url: https://community.cncf.io/events/details/cncf-kcd-uk-presents-kubernetes-community-days-uk-2023/https://community.cncf.io/events/details/cncf-kcd-uk-presents-kubernetes-community-days-uk-2023/
     eventName: Kubernetes Community Days UK
+    details:
+    - name: Attendee
+  - date: "2023-11-04"
+    humanDate: "November 4th - 5th, 2023"
+    url: https://cloud-native.rejekts.io/
+    eventName: Cloud Native Rejekts
     details:
     - name: Attendee
   - date: "2023-11-06"
