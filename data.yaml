@@ -121,13 +121,6 @@ projects:
         name: Go
 
 events:
-  - date: "2023-08-19"
-    humanDate: "September 19th, 2023"
-    url: https://www.meetup.com/kubernetes-london/events/295156725/
-    eventName: Kubernetes London
-    details:
-    - name: The Wonders and Woes of Webhooks
-      type: Talk
   - date: "2023-10-07"
     humanDate: "October 7th, 2023"
     url: https://dddeastmidlands.com/
@@ -147,10 +140,11 @@ events:
     url: https://cloud-native.rejekts.io/
     eventName: Cloud Native Rejekts
     details:
-    - name: Attendee
+    - name: <a href="https://cfp.cloud-native.rejekts.io/cloud-native-rejekts-na-chicago-2023/talk/XX3HWC/">Webhooks - what's the worst that could happen?</a>
+      type: Talk
   - date: "2023-11-06"
     humanDate: "November 6th - 9th, 2023"
     url: https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/
     eventName: KubeCon + CloudNativeCon NA
     details:
-    - name: Attendee and representing <a href="https://giantswarm.io/">Giant Swarm</a> as a sponsor
+    - name: Attendee and representing <a href="https://giantswarm.io/">Giant Swarm</a> as a sponsor (find us at booth `I10`)
