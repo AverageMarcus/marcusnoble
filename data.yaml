@@ -121,13 +121,6 @@ projects:
         name: Go
 
 events:
-  - date: "2023-10-07"
-    humanDate: "October 7th, 2023"
-    url: https://dddeastmidlands.com/
-    eventName: DDD East Midlands
-    details:
-    - name: Managing Kubernetes without losing your cool
-      type: Talk
   - date: "2023-10-17"
     humanDate: "October 17th - 18th, 2023"
     url: https://community.cncf.io/events/details/cncf-kcd-uk-presents-kubernetes-community-days-uk-2023/https://community.cncf.io/events/details/cncf-kcd-uk-presents-kubernetes-community-days-uk-2023/
