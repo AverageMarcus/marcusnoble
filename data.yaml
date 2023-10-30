@@ -121,13 +121,6 @@ projects:
         name: Go
 
 events:
-  - date: "2023-10-17"
-    humanDate: "October 17th - 18th, 2023"
-    url: https://community.cncf.io/events/details/cncf-kcd-uk-presents-kubernetes-community-days-uk-2023/https://community.cncf.io/events/details/cncf-kcd-uk-presents-kubernetes-community-days-uk-2023/
-    eventName: Kubernetes Community Days UK
-    details:
-    - name: Webhooks - what's the worst that could happen?
-      type: Talk
   - date: "2023-11-04"
     humanDate: "November 4th - 5th, 2023"
     url: https://cloud-native.rejekts.io/
