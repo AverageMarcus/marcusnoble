@@ -230,6 +230,13 @@
       margin-bottom: 6px;
     }
 
+    .badges a {
+      display: inline-block;
+    }
+    .badges a img {
+      width: 110px;
+    }
+
     @media only screen and (max-width: 1700px) {
       body {
         grid-template: 20vh 80vh / 100%;
@@ -291,6 +298,30 @@
       </ul>
     </section>
 
+    {{ if gt (len .events) 0 }}
+    <section id="events">
+      <h2>🗓 Upcoming Events</h2>
+
+      <ul class="events">
+        {{ range .events }}
+        <li>
+          <time datetime="{{ .date }}">{{ .humanDate }}</time>
+          <div class="details">
+            <strong><a href="{{ .url }}">{{ .eventName }}</a></strong>
+            {{ range .details }}
+            <div>
+              <span>{{ .name | html }}</span>
+              {{ if .type }}<span class="tag">{{ .type }}</span>{{ end }}
+            </div>
+            {{ end }}
+          </div>
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+    {{ end }}
+
+    {{ if gt (len .projects) 0 }}
     <section id="projects">
       <h2>💻 My Open Source Projects</h2>
 
@@ -314,27 +345,21 @@
         {{ end }}
       </ul>
     </section>
+    {{ end }}
 
-    <section id="events">
-      <h2>🗓 Upcoming Events</h2>
+    {{ if gt (len .badges) 0 }}
+    <section id="badges">
+      <h2>🎖️ Badges</h2>
 
-      <ul class="events">
-        {{ range .events }}
-        <li>
-          <time datetime="{{ .date }}">{{ .humanDate }}</time>
-          <div class="details">
-            <strong><a href="{{ .url }}">{{ .eventName }}</a></strong>
-            {{ range .details }}
-            <div>
-              <span>{{ .name | html }}</span>
-              {{ if .type }}<span class="tag">{{ .type }}</span>{{ end }}
-            </div>
-            {{ end }}
-          </div>
-        </li>
+      <ul class="badges">
+        {{ range .badges }}
+        <a href="{{ .url }}" target="_blank">
+          <img src="{{ .img }}" />
+        </a>
         {{ end }}
       </ul>
     </section>
+    {{ end }}
   </main>
 </body>
 </html>
