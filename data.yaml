@@ -136,7 +136,9 @@ events:
     url: https://cloud-native.rejekts.io/
     eventName: Cloud Native Rejekts EU
     details:
-    - name: Attendee
+    - name: |
+        <a href="https://cfp.cloud-native.rejekts.io/cloud-native-rejekts-eu-paris-2024/talk/KCN3QV/"> From Fragile to Resilient: ValidatingAdmissionPolicies Strengthen Kubernetes</a>
+      type: Talk
   - date: "2024-03-19"
     humanDate: "March 19th - 22nd, 2024"
     url: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/
