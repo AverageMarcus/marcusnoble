@@ -130,18 +130,4 @@ badges:
   - img: https://images.credly.com/size/110x110/images/b1eaaa0e-3e14-4bfe-9881-9ce477cfa7fc/image.png
     url: https://www.credly.com/badges/cd63e887-72ac-49b0-8322-a4062d86d997/public_url
 
-events:
-  - date: "2024-03-17"
-    humanDate: "March 17th - 18th, 2024"
-    url: https://cloud-native.rejekts.io/
-    eventName: Cloud Native Rejekts EU
-    details:
-    - name: |
-        <a href="https://cfp.cloud-native.rejekts.io/cloud-native-rejekts-eu-paris-2024/talk/KCN3QV/"> From Fragile to Resilient: ValidatingAdmissionPolicies Strengthen Kubernetes</a>
-      type: Talk
-  - date: "2024-03-19"
-    humanDate: "March 19th - 22nd, 2024"
-    url: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/
-    eventName: KubeCon + CloudNativeCon EU
-    details:
-    - name: Attendee and representing <a href="https://giantswarm.io/">Giant Swarm</a> as a sponsor
+events: []
