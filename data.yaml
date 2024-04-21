@@ -130,4 +130,10 @@ badges:
   - img: https://images.credly.com/size/110x110/images/b1eaaa0e-3e14-4bfe-9881-9ce477cfa7fc/image.png
     url: https://www.credly.com/badges/cd63e887-72ac-49b0-8322-a4062d86d997/public_url
 
-events: []
+events:
+  - date: "2024-11-12"
+    humanDate: "November 12th - 15th, 2024"
+    url: https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/
+    eventName: KubeCon + CloudNativeCon NA
+    details:
+    - name: Attendee
