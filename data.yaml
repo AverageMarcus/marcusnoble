@@ -131,6 +131,12 @@ badges:
     url: https://www.credly.com/badges/cd63e887-72ac-49b0-8322-a4062d86d997/public_url
 
 events:
+  - date: "2024-10-22"
+    humanDate: "October 22nd - 23rd, 2024"
+    url: https://community.cncf.io/events/details/cncf-kcd-uk-presents-kubernetes-community-days-uk-london-2024/
+    eventName: Kubernetes Community Days UK
+    details:
+    - name: Attendee
   - date: "2024-11-12"
     humanDate: "November 12th - 15th, 2024"
     url: https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/
