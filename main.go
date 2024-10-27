@@ -9,6 +9,7 @@ import (
 	"os"
 	"path"
 	"strings"
+	"time"
 
 	"gopkg.in/yaml.v2"
 )
@@ -36,12 +37,26 @@ func main() {
 		panic(err)
 	}
 
+	// Set up "slugs" that can be used as redirects to social media accounts
+	// E.g. https://marcusnoble.com/mastodon -> https://k8s.social/@Marcus
 	for _, l := range data["social"].([]interface{}) {
 		link := l.(map[interface{}]interface{})
 		if link["slug"] != "" {
 			http.Handle(link["slug"].(string), http.RedirectHandler(link["url"].(string), http.StatusTemporaryRedirect))
 		}
 	}
+
+	// Filter out any events that have passed already
+	futureEvents := []map[interface{}]interface{}{}
+	dateLayout := "2006-01-02"
+	for _, e := range data["events"].([]interface{}) {
+		event := e.(map[interface{}]interface{})
+		t, err := time.Parse(dateLayout, event["date"].(string))
+		if err == nil && time.Now().Before(t) {
+			futureEvents = append(futureEvents, event)
+		}
+	}
+	data["events"] = futureEvents
 
 	funcMap := template.FuncMap(map[string]interface{}{
 		"join": func(objs []interface{}, key, joiner string) template.HTML {
