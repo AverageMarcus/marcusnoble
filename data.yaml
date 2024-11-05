@@ -135,6 +135,8 @@ projects:
         name: Go
 
 badges:
+  - img: https://images.credly.com/size/340x340/images/0c431e75-3362-45fe-945c-1e62dda6defd/blob
+    url: https://www.credly.com/badges/fe951f9d-cbe8-4a5c-bb1a-793637a5958f/public_url
   - img: https://images.credly.com/size/110x110/images/b1eaaa0e-3e14-4bfe-9881-9ce477cfa7fc/image.png
     url: https://www.credly.com/badges/cd63e887-72ac-49b0-8322-a4062d86d997/public_url
 
