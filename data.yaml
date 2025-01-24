@@ -139,6 +139,13 @@ badges:
     url: https://www.credly.com/badges/6eb33d91-c6c9-4b63-9803-1092913a1d95/public_url
 
 events:
+  - date: "2025-03-13"
+    humanDate: "March 13th, 2025"
+    url: https://cloudnativeday.no/
+    eventName: Cloud Native Day Oslo
+    details:
+    - name: "From Fragile to Resilient: Using Admission Policies to Strengthen Kubernetes"
+      type: Talk
   - date: "2025-04-01"
     humanDate: "April 1st - 4th, 2025"
     url: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/
