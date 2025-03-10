@@ -160,4 +160,10 @@ events:
     eventName: KubeCon + CloudNativeCon Europe
     details:
     - name: Attendee and representing <a href="https://giantswarm.io/">Giant Swarm</a> as a sponsor
-
+  - date: "2025-04-24"
+    humanDate: "April 24th, 2025"
+    url: https://community.cncf.io/events/details/cncf-kcd-budapest-presents-kcd-budapest-2025/
+    eventName: KCD Budapest
+    details:
+    - name: "The Future of Kubernetes Admission Logic"
+      type: Talk
