@@ -140,19 +140,6 @@ badges:
     url: https://www.credly.com/badges/6eb33d91-c6c9-4b63-9803-1092913a1d95/public_url
 
 events:
-  - date: "2025-03-30"
-    humanDate: "March 30th, 2025"
-    url: https://cloud-native.rejekts.io/
-    eventName: Cloud Native Rejekts Europe
-    details:
-    - name: "Pod Deep Dive: Everything You Didn't Know You Needed to Know"
-      type: Talk
-  - date: "2025-04-01"
-    humanDate: "April 1st - 4th, 2025"
-    url: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/
-    eventName: KubeCon + CloudNativeCon Europe
-    details:
-    - name: Attendee and representing <a href="https://giantswarm.io/">Giant Swarm</a> as a sponsor
   - date: "2025-04-24"
     humanDate: "April 24th, 2025"
     url: https://community.cncf.io/events/details/cncf-kcd-budapest-presents-kcd-budapest-2025/
