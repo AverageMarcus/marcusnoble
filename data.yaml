@@ -149,8 +149,15 @@ events:
       type: Talk
   - date: "2025-06-05"
     humanDate: "June 5th, 2025"
-    url: https://community.cncf.io/events/details/cncf-kcd-czech-slovak-presents-kcd-czech-amp-slovak-bratislava-2025/
+    url: https://kcd-czech-slovak-2025.sessionize.com/session/837987
     eventName: KCD Czech & Slovak
+    details:
+    - name: "Pod Deep Dive: The Interesting Bits"
+      type: Talk
+  - date: "2025-07-21"
+    humanDate: "July 21st, 2025"
+    url: https://cloudnativesummit.de/schedule/
+    eventName: Cloud Native Summit Munich
     details:
     - name: "Pod Deep Dive: The Interesting Bits"
       type: Talk
