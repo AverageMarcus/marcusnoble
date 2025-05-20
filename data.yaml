@@ -161,3 +161,10 @@ events:
     details:
     - name: "Pod Deep Dive: The Interesting Bits"
       type: Talk
+  - date: "2025-09-11"
+    humanDate: "September 11th, 2025"
+    url: https://www.containerdays.io/containerdays-conference-2025/
+    eventName: ContainerDays Conference
+    details:
+    - name: "The Future of Kubernetes Admission Logic"
+      type: Talk
