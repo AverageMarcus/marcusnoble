@@ -140,20 +140,6 @@ badges:
     url: https://www.credly.com/badges/6eb33d91-c6c9-4b63-9803-1092913a1d95/public_url
 
 events:
-  - date: "2025-04-24"
-    humanDate: "April 24th, 2025"
-    url: https://community.cncf.io/events/details/cncf-kcd-budapest-presents-kcd-budapest-2025/
-    eventName: KCD Budapest
-    details:
-    - name: "The Future of Kubernetes Admission Logic"
-      type: Talk
-  - date: "2025-06-05"
-    humanDate: "June 5th, 2025"
-    url: https://kcd-czech-slovak-2025.sessionize.com/session/837987
-    eventName: KCD Czech & Slovak
-    details:
-    - name: "Pod Deep Dive: The Interesting Bits"
-      type: Talk
   - date: "2025-07-21"
     humanDate: "July 21st, 2025"
     url: https://cloudnativesummit.de/schedule/
