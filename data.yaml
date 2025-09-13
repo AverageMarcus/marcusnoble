@@ -147,11 +147,4 @@ badges:
   - img: https://images.credly.com/size/110x110/images/b1eaaa0e-3e14-4bfe-9881-9ce477cfa7fc/image.png
     url: https://www.credly.com/badges/cd63e887-72ac-49b0-8322-a4062d86d997/public_url
 
-events:
-  - date: "2025-09-11"
-    humanDate: "September 11th, 2025"
-    url: https://www.containerdays.io/containerdays-conference-2025/
-    eventName: ContainerDays Conference
-    details:
-    - name: "The Future of Kubernetes Admission Logic"
-      type: Talk
+events: []
