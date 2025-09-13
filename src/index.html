@@ -197,6 +197,39 @@
       border-radius: 50%;
     }
 
+    /* Talks */
+
+    .talks {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      font-size: .8em;
+    }
+
+    .talks li {
+      width: 300px;
+      max-width: 100%;
+      margin: 4px 4px;
+    }
+
+    .talks li a {
+      text-decoration: none;
+      color: unset;
+    }
+
+    .talks .recording {
+      display: block;
+      color: #fd7e0b;
+    }
+
+    .talks img {
+      width: 300px;
+      max-width: 100%;
+    }
+
     /* Events */
     .events {
       list-style: none;
@@ -315,6 +348,24 @@
             </div>
             {{ end }}
           </div>
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+    {{ end }}
+
+    {{ if gt (len .talks) 0 }}
+    <section id="talks">
+      <h2>🗣️ My Talks</h2>
+
+      <ul class="talks">
+        {{ range .talks }}
+        <li>
+          <a href="{{ .url }}">
+            <strong>{{ .title }}</strong>
+            <img src="{{.image}}">
+          </a>
+          {{ if .recording }}<a href="{{.recording}}" class="recording">📺 Recording</a>{{ end }}
         </li>
         {{ end }}
       </ul>

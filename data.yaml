@@ -147,4 +147,26 @@ badges:
   - img: https://images.credly.com/size/110x110/images/b1eaaa0e-3e14-4bfe-9881-9ce477cfa7fc/image.png
     url: https://www.credly.com/badges/cd63e887-72ac-49b0-8322-a4062d86d997/public_url
 
+talks:
+  - title: Pod Deep Dive - The Interesting Bits
+    image: https://on.notist.cloud/slides/deck15227/large-0.jpg
+    url: https://speaking.marcusnoble.co.uk/HqYcp2/pod-deep-dive-the-interesting-bits
+    recording: https://www.youtube.com/watch?v=E_r56x92KZw
+  - title: The Future of Kubernetes Admission Logic
+    image: https://on.notist.cloud/slides/deck15878/large-0.jpg
+    url: https://speaking.marcusnoble.co.uk/HARSlE/the-future-of-kubernetes-admission-logic
+    recording: https://youtu.be/zDBt4g1ETDg?list=PLzudWtDtAuH_nMRGBSsuN4s-YbXOu5lJL
+  - title: Webhooks - What's the worst that could happen?
+    image: https://on.notist.cloud/slides/deck12725/large-0.jpg
+    url: https://speaking.marcusnoble.co.uk/I6dyx4/webhooks-whats-the-worst-that-could-happen
+    recording: https://youtu.be/e4BlDLKJET4
+  - title: Managing Kubernetes without losing your cool
+    image: https://on.notist.cloud/slides/deck9980/large-0.jpg
+    url: https://speaking.marcusnoble.co.uk/quuysq/managing-kubernetes-without-losing-your-cool
+    recording: https://youtu.be/SGlU1JDXSD8?list=PLT41C0Ggz5wa66-AU5xapbOuzkUKUPLzi
+  - title: The Wonders and Woes of Webhooks
+    image: https://on.notist.cloud/slides/deck9809/large-0.jpg
+    url: https://speaking.marcusnoble.co.uk/Hw2IXG/the-wonders-and-woes-of-webhooks
+    recording: https://youtu.be/-Mwo8Xy5lto
+
 events: []
