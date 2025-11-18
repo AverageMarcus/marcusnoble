@@ -169,4 +169,11 @@ talks:
     url: https://speaking.marcusnoble.co.uk/Hw2IXG/the-wonders-and-woes-of-webhooks
     recording: https://youtu.be/-Mwo8Xy5lto
 
-events: []
+events:
+  - date: "2026-02-12"
+    humanDate: "February 12th, 2026"
+    url: https://www.containerdays.io/containerdays-london-2026/
+    eventName: ContainerDays London
+    details:
+    - name: "Pod Deep Dive: The Interesting Bits"
+      type: Talk
