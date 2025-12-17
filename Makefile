@@ -47,7 +47,7 @@ ci:
 
 .PHONY: release # Release the latest version of the application
 release:
-	@kubectl --context scaleway --namespace marcusnoble set image deployment marcusnoble web=rg.fr-par.scw.cloud/averagemarcus/marcusnoble:$(SHA)
+	@kubectl --context scaleway --namespace marcusnoble rollout restart deployment marcusnoble
 
 .PHONY: help # Show this list of commands
 help:
