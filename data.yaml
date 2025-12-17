@@ -179,6 +179,8 @@ events:
     details:
     - name: "Pod Deep Dive: The Interesting Bits"
       type: Talk
+    - name: "Debugging Your Conference Talk: Practical Tips to Resonate with your Audience"
+      type: Talk
   - date: "2026-03-25"
     humanDate: "March 25th, 2026"
     url: https://kccnceu2026.sched.com/event/2CW2p/kube-oddities-the-quirks-that-keep-kubernetes-interesting-marcus-noble-monzo-mark-sagi-kazar-independent
