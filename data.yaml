@@ -172,15 +172,16 @@ talks:
     recording: https://youtu.be/-Mwo8Xy5lto
 
 events:
-  - date: "2026-02-12"
-    humanDate: "February 12th, 2026"
-    url: https://www.containerdays.io/containerdays-london-2026/
-    eventName: ContainerDays London
-    details:
-    - name: "Pod Deep Dive: The Interesting Bits"
-      type: Talk
-    - name: "Debugging Your Conference Talk: Practical Tips to Resonate with your Audience"
-      type: Talk
+  - date: "2026-03-21"
+    humanDate: "March 21st, 2026"
+    url: https://cloud-native.rejekts.io
+    eventName: Cloud Native Rejekts Amsterdam
+    - name: Attendee
+  - date: "2026-03-22"
+    humanDate: "March 22nd, 2026"
+    url: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/features-add-ons/maintainer-summit/
+    eventName: Maintainer Summit
+    - name: Attendee
   - date: "2026-03-25"
     humanDate: "March 25th, 2026"
     url: https://kccnceu2026.sched.com/event/2CW2p/kube-oddities-the-quirks-that-keep-kubernetes-interesting-marcus-noble-monzo-mark-sagi-kazar-independent
