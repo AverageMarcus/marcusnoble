@@ -176,11 +176,13 @@ events:
     humanDate: "March 21st, 2026"
     url: https://cloud-native.rejekts.io
     eventName: Cloud Native Rejekts Amsterdam
+    details:
     - name: Attendee
   - date: "2026-03-22"
     humanDate: "March 22nd, 2026"
     url: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/features-add-ons/maintainer-summit/
     eventName: Maintainer Summit
+    details:
     - name: Attendee
   - date: "2026-03-25"
     humanDate: "March 25th, 2026"
