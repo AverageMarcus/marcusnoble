@@ -150,6 +150,14 @@ badges:
     url: https://www.credly.com/badges/cd63e887-72ac-49b0-8322-a4062d86d997/public_url
 
 talks:
+  - title: Kube-Oddities - The Quirks That Keep Kubernetes Interesting
+    image: https://on.notist.cloud/slides/deck17213/large-0.jpg
+    url: https://speaking.marcusnoble.co.uk/zT471P/kube-oddities-the-quirks-that-keep-kubernetes-interesting-marcus-noble-mark-sagi-kazar
+    # recording:
+  - title: "Debugging Your Conference Talk"
+    image: https://on.notist.cloud/slides/deck16957/large-0.jpg
+    url: https://speaking.marcusnoble.co.uk/0rRvmv/debugging-your-conference-talk-practical-tips-to-resonate-with-your-audience
+    # recording:
   - title: Pod Deep Dive - The Interesting Bits
     image: https://on.notist.cloud/slides/deck15227/large-0.jpg
     url: https://speaking.marcusnoble.co.uk/HqYcp2/pod-deep-dive-the-interesting-bits
@@ -172,22 +180,10 @@ talks:
     recording: https://youtu.be/-Mwo8Xy5lto
 
 events:
-  - date: "2026-03-21"
-    humanDate: "March 21st, 2026"
-    url: https://cloud-native.rejekts.io
-    eventName: Cloud Native Rejekts Amsterdam
-    details:
-    - name: Attendee
-  - date: "2026-03-22"
-    humanDate: "March 22nd, 2026"
-    url: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/features-add-ons/maintainer-summit/
-    eventName: Maintainer Summit
-    details:
-    - name: Attendee
-  - date: "2026-03-25"
-    humanDate: "March 25th, 2026"
-    url: https://kccnceu2026.sched.com/event/2CW2p/kube-oddities-the-quirks-that-keep-kubernetes-interesting-marcus-noble-monzo-mark-sagi-kazar-independent
-    eventName: KubeCon + CloudNativeCon EU 2026
+  - date: "2026-05-19"
+    humanDate: May 19th, 2026"
+    url: https://cloudnativedays.ro/schedule/a130ca9e-5ae4-45a3-a0e8-8111d910b4ec
+    eventName: Cloud Native Days Romania
     details:
     - name: "Kube-Oddities - The Quirks That Keep Kubernetes Interesting - Marcus Noble & Márk Sági-Kazár"
       type: Talk
