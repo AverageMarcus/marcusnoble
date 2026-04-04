@@ -189,3 +189,10 @@ events:
     details:
     - name: "Kube-Oddities - The Quirks That Keep Kubernetes Interesting - Marcus Noble & Márk Sági-Kazár"
       type: Talk
+  - date: "2026-09-02"
+    humanDate: September 2nd, 2026"
+    url: https://www.containerdays.io/containerdays-hamburg-2026/
+    eventName: Container Days Hamburg
+    details:
+    - name: "Kube-Oddities - The Quirks That Keep Kubernetes Interesting - Marcus Noble & Márk Sági-Kazár"
+      type: Talk
