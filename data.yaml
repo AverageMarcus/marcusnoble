@@ -72,6 +72,12 @@ social:
     name: YouTube
     icon: |
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 490" height="32"><path d="M480 180v130a100 100 0 0 1-100 100H110A100 100 0 0 1 10 310V180A100 100 0 0 1 110 80h270a100 100 0 0 1 100 100z" fill="#ea4640"/><path fill="#fff" d="m320 245-120 50V195z"/><g fill="#231f20"><path d="M380 70H110A110 110 0 0 0 0 180v130a110 110 0 0 0 110 110h270a110 110 0 0 0 110-110V180A110 110 0 0 0 380 70zm90 240c0 49.6-40.4 90-90 90H110c-49.6 0-90-40.4-90-90V180c0-49.6 40.4-90 90-90h270c49.6 0 90 40.4 90 90v130z"/><path d="m323.8 235.8-120-50A10 10 0 0 0 190 195v100a10 10 0 0 0 13.8 9.2l120-50a10 10 0 0 0 0-18.4zM210 280v-70l84 35-84 35z"/></g></svg>
+  - url:  https://openprofile.dev/profile/averagemarcus
+    slug: "/lfx"
+    title: The Linux Foundation Open Profile
+    name: LFX
+    icon: |
+      <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 76.6 76.6" height="32"><path d="M15.4 61.3V30.7H0v45.9h46V61.3z" style="fill:#0095ff"/><path d="M76.6 0H0v23h15.3v-7.6h46v45.9h-7.6v15.3h22.9z" style="fill:#00347b"/></svg>
   - url:  https://name.pn/marcus-noble
     slug: "/pronouns"
     title: More about my name and pronouns
