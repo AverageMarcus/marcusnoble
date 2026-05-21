@@ -190,13 +190,12 @@ talks:
     recording: https://youtu.be/-Mwo8Xy5lto
 
 events:
-  - date: "2026-05-19"
-    humanDate: May 19th, 2026
-    url: https://cloudnativedays.ro/schedule/a130ca9e-5ae4-45a3-a0e8-8111d910b4ec
-    eventName: Cloud Native Days Romania
+  - date: "2026-07-29"
+    humanDate: July 29th, 2026
+    url: https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/
+    eventName: KubeCon + CloudNativeCon Japan 2026
     details:
-    - name: "Kube-Oddities - The Quirks That Keep Kubernetes Interesting - Marcus Noble & Márk Sági-Kazár"
-      type: Talk
+    - name: Attendee
   - date: "2026-09-02"
     humanDate: September 2nd, 2026
     url: https://www.containerdays.io/containerdays-hamburg-2026/
