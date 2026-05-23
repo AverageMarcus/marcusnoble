@@ -142,21 +142,23 @@ projects:
         name: Go
 
 badges:
-  - img: https://images.credly.com/size/680x680/images/c6ac42b3-deaa-4d29-b065-0efb1b533eed/blob
+  - img: /badges/35451a42-271c-4858-9c02-be8c25d6dcb6.png
+    url: https://credsverse.com/credentials/35451a42-271c-4858-9c02-be8c25d6dcb6
+  - img: /badges/0727e493-d1fc-46e3-b4e6-76b853d705a4.png
     url: https://www.credly.com/badges/0727e493-d1fc-46e3-b4e6-76b853d705a4/public_url
-  - img: https://images.credly.com/size/680x680/images/56cff060-8267-4cc5-a6b0-b35141b3beeb/blob
+  - img: /badges/84a5f3c2-ebc7-4ca8-ad2a-e70c0dcc0953.png
     url: https://www.credly.com/badges/84a5f3c2-ebc7-4ca8-ad2a-e70c0dcc0953/public_url
-  - img: https://images.credly.com/size/340x340/images/f09ecd0d-af5b-4933-9919-5db84511eae4/blob
+  - img: /badges/51c920b6-d90f-4fd7-a9bb-9dbb97c2aec7.png
     url: https://www.credly.com/badges/51c920b6-d90f-4fd7-a9bb-9dbb97c2aec7/public_url
-  - img: https://images.credly.com/size/340x340/images/e094e852-abe8-4ed2-b0f7-54adeeb910ee/blob
+  - img: /badges/59794507-b4d4-40a4-bd30-d49b1bc9ed5e.png
     url: https://www.credly.com/badges/59794507-b4d4-40a4-bd30-d49b1bc9ed5e/public_url
-  - img: https://images.credly.com/size/340x340/images/5be4c74d-322f-476b-9fc9-72fda9c31ff2/blob
+  - img: /badges/6eb33d91-c6c9-4b63-9803-1092913a1d95.png
     url: https://www.credly.com/badges/6eb33d91-c6c9-4b63-9803-1092913a1d95/public_url
-  - img: https://images.credly.com/size/110x110/images/0ec45b92-a143-4c48-a2d5-290c95dbcdc9/blob
+  - img: /badges/c88ef1de-e0f2-4376-b71d-7a28c7dd529b.png
     url: https://www.credly.com/badges/c88ef1de-e0f2-4376-b71d-7a28c7dd529b/public_url
-  - img: https://images.credly.com/size/680x680/images/5000414f-2186-4bfa-b6b9-5f920b1d65cf/blob
+  - img: /badges/fe951f9d-cbe8-4a5c-bb1a-793637a5958f.png
     url: https://www.credly.com/badges/fe951f9d-cbe8-4a5c-bb1a-793637a5958f/public_url
-  - img: https://images.credly.com/size/110x110/images/b1eaaa0e-3e14-4bfe-9881-9ce477cfa7fc/image.png
+  - img: /badges/cd63e887-72ac-49b0-8322-a4062d86d997.png
     url: https://www.credly.com/badges/cd63e887-72ac-49b0-8322-a4062d86d997/public_url
 
 talks:
