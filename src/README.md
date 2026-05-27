@@ -51,7 +51,7 @@ Below are a selection of highlights.
 
 {{ range .badges }}
 <a href="{{ .url }}" target="_blank">
-  <img src="{{ .img }}" width="110px" />
+  <img src="https://www.marcusnoble.com/{{ .img }}" width="110px" />
 </a>
 {{ end }}
 {{ end }}
