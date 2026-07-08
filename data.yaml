@@ -165,7 +165,7 @@ talks:
   - title: Kube-Oddities - The Quirks That Keep Kubernetes Interesting
     image: https://on.notist.cloud/slides/deck17213/large-0.jpg
     url: https://speaking.marcusnoble.co.uk/zT471P/kube-oddities-the-quirks-that-keep-kubernetes-interesting-marcus-noble-mark-sagi-kazar
-    # recording:
+    recording: https://youtu.be/ybxDYZ-9wHE?si=_xlgCpomYx8ZNUj7
   - title: "Debugging Your Conference Talk"
     image: https://on.notist.cloud/slides/deck16957/large-0.jpg
     url: https://speaking.marcusnoble.co.uk/0rRvmv/debugging-your-conference-talk-practical-tips-to-resonate-with-your-audience
