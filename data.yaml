@@ -205,3 +205,16 @@ events:
     details:
     - name: "Kube-Oddities - The Quirks That Keep Kubernetes Interesting - Marcus Noble & Márk Sági-Kazár"
       type: Talk
+  - date: "2026-09-29"
+    humanDate: September 29th, 2026
+    url: https://kcd.bg
+    eventName: KCD Sofia
+    details:
+    - name: Attendee
+  - date: "2026-10-22"
+    humanDate: October 22nd, 2026
+    url: https://cloudnativedayspoland.org
+    eventName: Cloud Native DaysPoland
+    details:
+    - name: "Kube-Oddities - The Quirks That Keep Kubernetes Interesting - Marcus Noble & Márk Sági-Kazár"
+      type: Talk
